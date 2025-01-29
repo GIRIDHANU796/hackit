@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sign1.css" />
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <form>
-        <center>
+        <center class="p1">
             <h1><i>Log in</i></h1>
             <label for="logg"><h3>Username or Mail</h3></label>
             <input type="text" id="logg" name="logg" required>
             <label for="passs"><h3>Password</h3></label>
-            <input type="text" id="passs" name="passs" required><br><br>
+            <input type="password" id="passs" name="passs" required><br><br>
             <input type="submit" value="LOGIN">
+            <p id="error"></p>
             <P>Don't have an account <a href="sign.html">Sign up</a></P>
         </center>
     </form>

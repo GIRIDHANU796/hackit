@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giridhanu - Portfolio</title>
+    <style>
+        /* Basic Reset */
+        body, h1, h2, h3, p, a, section, footer {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #141414;
+            color: white;
+            font-size: 16px;
+            line-height: 1.5;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #141414;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        /* About Section */
+        #about {
+            padding: 50px 20px;
+            background-color: #1c1c1c;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        #about p {
+            font-size: 1.1rem;
+            color: #ccc;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 50px 20px;
+            background-color: #141414;
+            text-align: center;
+        }
+
+        #skills h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .skill {
+            display: inline-block;
+            margin: 0 30px 30px;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .skill h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .skill p {
+            font-size: 1rem;
+            color: #aaa;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 50px 20px;
+            background-color: #1c1c1c;
+        }
+
+        #projects h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .project {
+            display: inline-block;
+            width: 100%;
+            background-color: #333;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .project h3 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1.1rem;
+            color: #ccc;
+            margin-bottom: 15px;
+        }
+
+        .project a {
+            color: #e50914;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        /* Contact Section */
+        #contact {
+            padding: 50px 20px;
+            background-color: #141414;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        form label {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #555;
+            background-color: #222;
+            color: white;
+        }
+
+        form button {
+            padding: 12px 20px;
+            background-color: #e50914;
+            color: white;
+            font-size: 1.1rem;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        form button:hover {
+            background-color: #b40611;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px 0;
+            background-color: #141414;
+            color: white;
+            text-align: center;
+        }
+
+        footer a {
+            color: #e50914;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 768px) {
+            .skill {
+                width: 45%;
+                margin: 15px 0;
+            }
+
+            .project {
+                width: 100%;
+            }
+
+            form {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Giridhanu - Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello, I'm Giridhanu, a C++ developer with a strong focus on embedded systems. I create efficient and reliable embedded solutions for various applications. I'm passionate about problem-solving and programming, always exploring new technologies to enhance my skill set and improve my projects.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>C++</h3>
+            <p>Experienced in developing embedded systems and real-time applications using C++.</p>
+        </div>
+        <div class="skill">
+            <h3>Embedded Systems</h3>
+            <p>Proficient in designing and implementing embedded systems for IoT and other device-based applications.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Embedded IoT System</h3>
+            <p>A project where I developed a real-time IoT system using embedded C++ for smart home automation.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Real-Time Data Logger</h3>
+            <p>Created a data logging system that captures and processes data in real time for industrial monitoring.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Giridhanu. All rights reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/giridhanu">LinkedIn</a> | 
+            <a href="https://github.com/giridhanu">GitHub</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+ul
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+li
+{
+    text-decoration: none;
+    list-style: none;
+}
+.container
+{
+    display: flex;
+}
+.container div
+{
+    background-color: aqua;
+    border: 4px solid plum;
+    height: 140px;
+    width: 100vw;
+}
